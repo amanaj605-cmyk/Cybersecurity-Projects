@@ -1,0 +1,7 @@
+=== SECURITY REPORT ===
+Successful Logins: 2
+Failed Logins: 3
+
+ALERT: Possible brute-force attack detected!
+Target User: admin
+Failed Attempts: 3
