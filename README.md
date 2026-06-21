@@ -1,34 +1,59 @@
-# Cybersecurity-Projects
+# Cybersecurity Projects
+
 My cybersecurity learning journey with Python projects.
-# Password Strength Checker
 
-A Python-based password strength checker that evaluates passwords based on:
+## Projects
 
-- Minimum length
+### 1. Password Checker
+Checks whether a password matches the required password.
+
+### 2. Password Strength Checker
+Analyzes password strength based on:
+- Length
 - Uppercase letters
 - Lowercase letters
-- Digits
+- Numbers
 - Special characters
 
-## Features
+### 3. File Integrity Checker
+Uses hashing to detect whether a file has been modified.
 
-- Detects weak passwords
-- Suggests missing security requirements
-- Classifies passwords as Weak, Medium, or Strong
+### 4. Port Scanner
+Scans ports and identifies open services.
+
+### 5. Log Analyzer
+Analyzes login logs and counts:
+- Successful logins
+- Failed logins
+- Suspicious users
+
+### 6. Mini SIEM
+Detects suspicious login activity and brute-force attempts.
+
+### 7. Security Report Generator
+Generates security reports from analyzed logs.
+
+### 8. Real-Time Log Monitor
+Monitors log files continuously and displays new events.
+
+### 9. Real-Time SIEM v2
+Provides:
+- Real-time monitoring
+- Brute-force detection
+- Alert generation
+- Alert logging
 
 ## Technologies Used
 
 - Python
+- Git
+- GitHub
+- VS Code
 
-## Example
+## Learning Goals
 
-Input:
-hello
-
-Output:
-Password should be at least 8 characters long
-Add at least one capital letter
-Add at least one digit
-Add at least one special character
-
-Weak Password
+- Cybersecurity Fundamentals
+- Networking
+- Log Analysis
+- SIEM Concepts
+- Security Automation
